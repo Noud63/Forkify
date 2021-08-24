@@ -1,0 +1,58 @@
+.search-results {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin-top: 40px;;
+  padding: 0 3rem;
+  // &::after {
+  //   content: '';
+  //   display: table;
+  //   clear: both;
+  // }
+
+  &__btn {
+    &--prev {
+      float: left;
+      margin-bottom: 20px;
+    }
+  &--next {
+      float: right;
+      margin-bottom: 20px;
+    }
+  &--togo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  }
+}
+
+.pagesToGo {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #f38e82;
+  border-style: none;
+  background-color: white;
+}
+
+
+.copyright {
+  color: $color-grey-dark-2;
+  font-size: 1.2rem;
+  padding: 0 3.5rem;
+  margin-top: 4rem;
+
+  .twitter-link:link,
+  .twitter-link:visited {
+    color: $color-grey-dark-2;
+  }
+}
