@@ -15,5 +15,5 @@ Supports up to 100 requests per hour
 Search terms are limited
 Only GET requests allowed
 
-App build with ES6 modules pattern, webpack and babel.
+App build with ES6 modules pattern, parcel bundler.
 
